@@ -59,3 +59,29 @@
   font-size: 18px;
 
 }
+.lines{
+  display: none;
+}
+/* media query */
+@media screen and (max-width:576px){
+  .navi{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .nav-links{
+    display: none;
+
+  }
+  .lines{
+    display: block;
+    
+  }
+  .line{
+    border-top: 2px white solid;
+    padding: 2px;
+    width: 18px;
+  }
+  
+}
