@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+/* shared */
+.display-flex {
+  display: flex;
+}
+.light-color {
+  color: rgba(230, 83, 60, 1);
+}
+.white {
+  color: #ffffff;
+}
+
+
+/* nav */
+.navi {
+  /* border: 5px red solid; */
+  justify-content: space-between;
+  padding: 57px 190px;
+  align-items: center;
+  background-color: #111111;
+  background-blend-mode: lighten;
+}
+.nav-links {
+  /* border: 5px green solid; */
+  width: 465px;
+  height: 45px;
+  justify-content: space-between;
+  gap: 47px;
+  padding-right: 24px;
+  
+  border-radius: 46px;
+  align-items: center;
+}
+.brand-name {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.link {
+  font-size: 1.1rem;
+  font-weight: 400;
+
+}
+.home{
+  width: 100%;
+  height: 100%;
+  background-color: #E6533C;
+  border-radius: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+
+}
