@@ -26,8 +26,9 @@
   color: rgba(255, 255, 255, 0.5);
 }
 h2{
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 14px;
+  font-weight: 900;
 }
 .btn-primary {
   padding: 16px 47px;
@@ -189,8 +190,29 @@ body{
   margin-top: 6px;
 }
 
+/* run extra */
 
+.run{
+  background-color: rgba(34, 34, 34, 1);
+  margin: 100px 190px;
+  padding: 30px;
+  justify-content: space-between;
+}
+.run1{
+  margin: 40px 165px 4px 40px ;
 
+}
+.run1 > p {
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-bottom: 34px;
+}
+.run2>img{
+  max-width: 100%;
+  width: 450px;
+  height: 310px;
+  border-radius: 18px;
+}
 
 
 
@@ -255,6 +277,20 @@ body{
   padding-right: 80px;
   padding-left: 80px;
 }
- 
-
+.habit{
+  margin-top: 20px;
+}
+.run{
+  background-color: rgba(34, 34, 34, 1);
+  margin: 20px;
+  padding: 10px;
+  flex-direction: column;
+  border-radius: 18px;
+  margin-top: 66px;
+}
+.run1 , .run2{
+  margin: 0 auto ;
+  margin-bottom: 31px;
+  padding: 33px;
+}
 }
