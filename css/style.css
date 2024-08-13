@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parisienne&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -6,6 +7,11 @@
 .inter-font {
   font-family: "Inter", sans-serif;
 }
+.parisienne {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+}
+
 /* shared */
 .display-flex {
   display: flex;
@@ -18,6 +24,10 @@
 }
 .gray {
   color: rgba(255, 255, 255, 0.5);
+}
+h2{
+  font-size: 2.5rem;
+  margin-bottom: 14px;
 }
 .btn-primary {
   padding: 16px 47px;
@@ -146,6 +156,38 @@ h1 {
   color: rgba(239, 237, 232, 0.65);
 }
 
+/* main */
+/* change habit */
+body{
+  background-color: black;
+}
+
+.habit1{
+  text-align: center;
+
+  margin: 100px 187px 58px 187px;
+  max-width: 100%;
+}
+.habit1 > p {
+  font-size: 0.9rem;
+}
+.habit2{
+  
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 0px 198px 100px 198px;
+  text-align: center;
+  gap: 40px;
+}
+.card > img{
+  border: 5px #B9B9B9 solid;
+  border-radius: 50%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.card > p {
+  margin-top: 6px;
+}
 
 
 
@@ -196,5 +238,23 @@ h1 {
  .card2{
   margin-left: 20px;
  }
+ .habit1{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.habit2{
+  grid-template-columns: repeat(1,1fr);
+  margin: 0 auto;
+  gap: 40px;
+}
+.card > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+ 
 
 }
