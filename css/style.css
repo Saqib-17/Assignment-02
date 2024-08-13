@@ -25,6 +25,9 @@
 .gray {
   color: rgba(255, 255, 255, 0.5);
 }
+.dark{
+  color: black;
+}
 h2{
   font-size: 3rem;
   margin-bottom: 14px;
@@ -202,7 +205,7 @@ body{
   margin: 40px 165px 4px 40px ;
 
 }
-.run1 > p {
+.paragraph {
   font-weight: 300;
   font-size: 0.9rem;
   margin-bottom: 34px;
@@ -213,7 +216,59 @@ body{
   height: 310px;
   border-radius: 18px;
 }
+/* TRAINING   */
+.training{
+  margin: 100px 190px;
+}
+.container{
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+.container img{
+  width: 100%;
+  height: 100%;
+}
+.img1{
+  grid-column: 1 / span 3;
+  background-color: rgba(6, 255, 210, 0.5);
+}
+.imgpara{
+  margin-top:-100px ;
+  margin-left: 40px ;
 
+}
+.imgpara2{
+  margin-top: -210px;
+  margin-left: 40px;
+}
+.imgpara3{
+  margin-top: -200px;
+  margin-left: 340px;
+
+}
+.img2{
+  border: 5px yellow solid;
+  grid-column: 4 / span 6;
+}
+
+.img3{
+  border: 5px purple solid;
+  grid-column: 10 / span 3;
+}
+.img4{
+  border: 2px white solid;
+  grid-column: 1 / span 5;
+}
+.img5{
+  border: 2px orange solid;
+  grid-column: 6 / span 3;
+}
+.img6{
+  border: 2px pink solid;
+  grid-column: 9 / span 4;
+}
 
 
 
@@ -266,7 +321,7 @@ body{
   padding: 10px;
   margin-bottom: 20px;
 }
-.habit2{
+.habit2 {
   grid-template-columns: repeat(1,1fr);
   margin: 0 auto;
   gap: 40px;
@@ -288,9 +343,16 @@ body{
   border-radius: 18px;
   margin-top: 66px;
 }
-.run1 , .run2{
+.run1 , .run2 , .training{
   margin: 0 auto ;
   margin-bottom: 31px;
   padding: 33px;
+}
+.container{
+  grid-template-columns: repeat(2,1fr);
+}
+
+.img1 , .img4{
+  display: none;
 }
 }
