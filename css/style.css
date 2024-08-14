@@ -44,6 +44,7 @@ h2{
   margin-right: 14px;
 }
 
+
 /* nav */
 .navbanner {
   height: 715px;
@@ -249,27 +250,74 @@ body{
 
 }
 .img2{
-  border: 5px yellow solid;
   grid-column: 4 / span 6;
 }
 
 .img3{
-  border: 5px purple solid;
   grid-column: 10 / span 3;
 }
 .img4{
-  border: 2px white solid;
   grid-column: 1 / span 5;
 }
 .img5{
-  border: 2px orange solid;
   grid-column: 6 / span 3;
 }
 .img6{
-  border: 2px pink solid;
   grid-column: 9 / span 4;
 }
+/* BMI CALCULATOR */
+.bmi{
+  
+  margin: 88px 384px;
+}
+.bmi-cal{
+  margin: 0px -190px;
+  background-color: #222222;
+  justify-content: space-between;
+  padding: 50px 190px;
+}
+table, th, td {
+  border: 2px rgba(255, 255, 255, 0.1) solid;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 15px 20px;
+}
+.bmi-heading{
+  font-size: 28px;
+  margin-bottom: 52px;
+}
+.bmi-heading2{
+  font-size: 28px;
+}
+input , select{
+  padding: 13px 20px;
+  width: 300px;
+  gap: 12px;
+  border: none;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
 
+  
+}
+option {
+  font-weight: 400;
+  background-color:gray; 
+}
+.s{
+  width: 343px;
+}
+select{
+  width: 100%;
+}
+.bmiform > p{
+  margin-bottom: 34px;
+}
+.butt{
+  margin-top: 50px;
+}
 
 
 
@@ -343,7 +391,7 @@ body{
   border-radius: 18px;
   margin-top: 66px;
 }
-.run1 , .run2 , .training{
+.run1 , .run2 , .training , .bmi, .bmi-al{
   margin: 0 auto ;
   margin-bottom: 31px;
   padding: 33px;
@@ -355,4 +403,26 @@ body{
 .img1 , .img4{
   display: none;
 }
+.bmi-cal{
+  display: flex;
+  flex-direction: column;
+}
+.bmiform{
+  margin-top: 30px;
+  margin-left: 15px;
+
+}
+.chart{
+  margin-left: 15px;
+}
+select , input {
+  width: 35%;
+}
+.s{
+  width: 47%;
+}
+.act{
+  width: 95%;
+}
+
 }
