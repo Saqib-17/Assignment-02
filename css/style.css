@@ -371,6 +371,17 @@ select{
   border-radius: 18px; */
   grid-column: 9 / 4 span;
 }
+.trainer-des{
+  margin-top: -66px;
+  margin-left: 30px;
+}
+.trainer-des > h4{
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.trainer-des > p{
+  font-size: 0.9rem;
+}
 
 
 
@@ -474,6 +485,16 @@ select , input {
 }
 .act{
   width: 95%;
+}
+.trainer-img1 , .trainer-img4{
+  display: none;
+}
+.team-container{
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(4,1fr);
+}
+.trainer-img2, .trainer-img3, .trainer-img5 ,.trainer-img6 {
+  grid-column: 1 / 12 span;
 }
 
 }
