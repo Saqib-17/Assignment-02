@@ -375,6 +375,7 @@ select {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 50px;
   padding-top: 20px;
+  border-radius: 18px;
 }
 .inspiration > h1 {
   margin-top: 10px;
@@ -400,7 +401,7 @@ select {
   margin: 0 auto;
   margin-bottom:20px ;
   border-radius: 28px;
-  box-shadow: rgba(201, 142, 204, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(174, 24, 182, 0.236) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
 }
 .icard2 {
@@ -408,7 +409,7 @@ select {
   margin: 0 auto;
   margin-bottom:20px ;
   border-radius: 28px;
-  box-shadow: rgba(201, 142, 204, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(174, 24, 182, 0.236) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
 }
 .icard3 {
@@ -416,7 +417,7 @@ select {
   margin: 0 auto;
   margin-bottom:20px ;
   border-radius: 28px;
-  box-shadow: rgba(201, 142, 204, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(174, 24, 182, 0.236) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
 }
 .icard4 {
@@ -424,9 +425,7 @@ select {
   margin: 0 auto;
   margin-bottom:20px ;
   border-radius: 28px;
-  box-shadow: rgba(201, 142, 204, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
-  
+  box-shadow: rgba(174, 24, 182, 0.236) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .icard img{
   max-width: 100%;
@@ -616,5 +615,28 @@ footer {
     margin-right: 10px;
     width: 400px;
     margin-left: 10px;
+  }
+  .inspiration{
+    border-radius: 18px;
+  }
+  .icard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    gap: 50px;
+    
+  }
+  .inspiration h1{
+    margin-right: 500px;
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+  .icard1 , .icard3{
+    width: 250px;
+    
+  }
+  .icard2 , .icard4{
+    display: none;
   }
 }
