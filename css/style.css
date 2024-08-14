@@ -292,7 +292,7 @@ table, th, td {
 input , select{
   padding: 13px 20px;
   width: 300px;
-  gap: 12px;
+  margin-right: 12px;
   border: none;
   margin-bottom: 12px;
   border-radius: 8px;
@@ -310,7 +310,7 @@ option {
   width: 343px;
 }
 select{
-  width: 100%;
+  width: 98%;
 }
 .bmiform > p{
   margin-bottom: 34px;
@@ -416,10 +416,10 @@ select{
   margin-left: 15px;
 }
 select , input {
-  width: 35%;
+  width: 34%;
 }
 .s{
-  width: 47%;
+  width: 45%;
 }
 .act{
   width: 95%;
