@@ -413,7 +413,7 @@ footer{
   font-size: 1.5rem;
   
 }
-.line{
+.line-footer{
   
   margin: 79px 190px 36px 190px;
 }
@@ -534,4 +534,19 @@ select , input {
 .trainer-img2, .trainer-img3, .trainer-img5 ,.trainer-img6 {
   grid-column: 1 / 12 span;
 }
+.footer{
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+.footer-container-1 , .footer-container-2, .footer-container-3{
+  width: 300px;
+}
+.line-footer{
+  margin-right: 10px;
+  width: 400px;
+  margin-left: 10px;
+}
+}
+
